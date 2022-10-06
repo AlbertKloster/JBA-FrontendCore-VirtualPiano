@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-green {
+  background-color: darkgreen;
+}
+
+.key-white {
+  justify-self: stretch;
+  background-color: white;
+  font-size: 1.6em;
+  color: black;
+  border: solid gray 2px;
+}
+
+.key-black {
+  justify-self: center;
+  width: 32px;
+  background-color: black;
+  font-size: 1.2em;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-keys {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 500px;
+  height: 200px;
+}
+
+.black-keys {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 500px;
+  height: 130px;
+  margin-top: -68px;
+  margin-left: -464px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30%;
+}
+
+.key-a {
+  grid-column: 1;
+}
+
+.key-s {
+  grid-column: 2;
+}
+
+.key-d {
+  grid-column: 3;
+}
+
+.key-f {
+  grid-column: 4;
+}
+
+.key-g {
+  grid-column: 5;
+}
+
+.key-h {
+  grid-column: 6;
+}
+
+.key-j {
+  grid-column: 7;
+}
+
+.key-w {
+  grid-column: 1;
+}
+
+.key-e {
+  grid-column: 2;
+}
+
+.key-t {
+  grid-column: 4;
+}
+
+.key-y {
+  grid-column: 5;
+}
+
+.key-u {
+  grid-column: 6;
+}
